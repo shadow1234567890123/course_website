@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="connect6" default="run" basedir=".">
+	<target name="init">
+		<mkdir dir="bin"/>
+	</target>
+	<target name="compile" depends="init">
+		<javac srcdir="srcAnt" destdir="bin"/>
+	</target>
+	<target name="run" depends="compile">
+		<java classname="main.Main" classpath="bin" input="textCase1.txt" output="bin/result1.txt"/>
+	</target>
+</project>

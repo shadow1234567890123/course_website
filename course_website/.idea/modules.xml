@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/course_website.iml" filepath="$PROJECT_DIR$/course_website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course_website_dao/course_website_dao.iml" filepath="$PROJECT_DIR$/course_website_dao/course_website_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course_website_domain/course_website_domain.iml" filepath="$PROJECT_DIR$/course_website_domain/course_website_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course_website_service/course_website_service.iml" filepath="$PROJECT_DIR$/course_website_service/course_website_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course_website_utils/course_website_utils.iml" filepath="$PROJECT_DIR$/course_website_utils/course_website_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course_website_web/course_website_web.iml" filepath="$PROJECT_DIR$/course_website_web/course_website_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jago/jago.iml" filepath="$PROJECT_DIR$/jago/jago.iml" />
+    </modules>
+  </component>
+</project>

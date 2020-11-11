@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project basedir="." default="run" name="connect6">
+	<property name="path" value=""/>
+	<property name="input" value=""/>
+	<property name="output" value=""/>
+	<property name="classPath" value=""/>
+	<property name="className" value=""/>
+	<target name="init">
+		<mkdir dir="${classPath}"/>
+	</target>
+	<target depends="init" name="compile">
+		<javac destdir="${classPath}" srcdir="${path}"/>
+	</target>
+	<target depends="compile" name="run">
+		<java classname="${className}" classpath="${classPath}" input="${input}" output="${output}"/>
+	</target>
+</project>

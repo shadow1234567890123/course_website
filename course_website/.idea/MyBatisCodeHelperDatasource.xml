@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generatedClassPathList">
+          <list>
+            <option value="G:\CourseWebsite\course_website--helperTest\course_website_domain\src\main\java\ouc\zhx\domain" />
+            <option value="G:\CourseWebsite\course_website\course_website_domain\src\main\java\ouc\zhx\domain" />
+          </list>
+        </option>
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

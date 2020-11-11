@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@localhost" uuid="4dc3cd68-a395-4cf0-be1a-831d43187fef">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="course_website@localhost" uuid="eb324669-7185-4ed5-967a-f04e6d35669b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:course_website</introspection-schemas>
+    </data-source>
+  </component>
+</project>
