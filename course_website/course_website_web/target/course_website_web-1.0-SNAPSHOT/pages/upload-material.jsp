@@ -62,7 +62,7 @@
         <div class="box-body">
             <form action="/material/saveMaterial" method="post" enctype="multipart/form-data" id="fileUploadForm">
                 <input type="file" name="upload">
-                <input type="submit" class="btn btn-primary" style="margin-top: 10px" onclick="submitMaterial();"/>
+                <input type="submit" class="btn btn-primary" style="margin-top: 10px"/>
             </form>
         </div>
     </div>
@@ -71,22 +71,7 @@
 <script src="${pageContext.request.contextPath}/plugins/jQuery/jquery-3.2.1.js"></script>
 
 <script type="text/javascript">
-    function submitMaterial() {
 
-        $.ajax({
-            //几个参数需要注意一下
-            type: "POST",//方法类型
-            dataType: "text",//预期服务器返回的数据类型
-            url: "/material/saveMaterial" ,//url
-            data: $('#fileUploadForm').serialize(),
-            success: function (data) {
-                alert("提交成功");
-            },
-            error : function() {
-                alert("提交成功");
-            }
-        });
-    };
 </script>
 
 </body>
